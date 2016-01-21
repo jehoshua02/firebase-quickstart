@@ -1,4 +1,5 @@
 var HtmlPlugin = require('html-webpack-plugin');
+var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 module.exports = {
   entry: {
     index: './src/index.js'
@@ -9,7 +10,9 @@ module.exports = {
   },
   plugins: [
     new HtmlPlugin({
-      title: 'Firebase Quickstart'
-    })
+      title: 'Firebase Quickstart',
+      favicon: './src/favicon.ico'
+    }),
+    new BrowserSyncPlugin({server: { baseDir: ['build'] }})
   ]
 };

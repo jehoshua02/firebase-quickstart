@@ -7,8 +7,10 @@
     "firebase": "^2.3.2"
   },
   "devDependencies": {
-    "webpack": "^1.12.11",
-    "html-webpack-plugin": "^2.7.1"
+    "browser-sync": "^2.11.1",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.7.1",
+    "webpack": "^1.12.11"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
