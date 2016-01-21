@@ -9,13 +9,15 @@
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "browser-sync-webpack-plugin": "^1.0.1",
+    "firebase-tools": "^2.2.0",
     "html-webpack-plugin": "^2.7.1",
     "webpack": "^1.12.11"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "deploy": "firebase deploy"
   },
   "author": "Joshua Stoutenburg <jehoshua02@gmail.com>",
   "license": "MIT"
