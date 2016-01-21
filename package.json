@@ -1,0 +1,20 @@
+{
+  "name": "firebase-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.html",
+  "dependencies": {
+    "firebase": "^2.3.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.11",
+    "html-webpack-plugin": "^2.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "author": "Joshua Stoutenburg <jehoshua02@gmail.com>",
+  "license": "MIT"
+}
